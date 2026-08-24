@@ -12,3 +12,4 @@ logs/
 *.zip
 *.sh
 slurm-out/
+log-julia/
