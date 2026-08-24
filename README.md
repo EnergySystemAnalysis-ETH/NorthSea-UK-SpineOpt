@@ -1,4 +1,4 @@
-Copyright (C) 2023-2026 Chair of Energy Systems Analysis (ETH Zurich): Huang.Jiangyi, Anna Peecock, Pietro Bianchi Marzoli, Josef Köll
+Copyright (C) 2023-2026 Chair of Energy Systems Analysis (ETH Zurich): Huang.JiangYi, Anna Peecock, Pietro Bianchi Marzoli, Josef Köll
 
 # UK North Sea Transition Model (SpineOpt)
 
