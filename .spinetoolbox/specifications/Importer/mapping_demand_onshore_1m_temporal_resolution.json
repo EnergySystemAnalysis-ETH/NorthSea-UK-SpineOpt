@@ -1,0 +1,126 @@
+{
+    "name": "Demand Onshore 1M temporal resolution",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "Gas_demand": [
+                {
+                    "node__temporal_block": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "hidden",
+                                "value": "node__temporal_block"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "temporal_block"
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 1
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": "header",
+                                "value": 3,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": "hidden",
+                                "value": "opt_1M",
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Oil_demand": [
+                {
+                    "node__temporal_block": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "hidden",
+                                "value": "node__temporal_block"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "temporal_block"
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 1
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": "header",
+                                "value": 3,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": "hidden",
+                                "value": "opt_1M",
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "Gas_demand",
+            "Oil_demand"
+        ],
+        "table_options": {
+            "Gas_demand": {
+                "header": true
+            },
+            "Oil_demand": {
+                "header": true
+            }
+        },
+        "table_types": {
+            "Gas_demand": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "string"
+            },
+            "Oil_demand": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "string"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelReader"
+    },
+    "description": ""
+}

@@ -1,0 +1,74 @@
+{
+    "name": "Object Class Connection Main Importer",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "Connection_oil": [
+                {
+                    "Object class unit": {
+                        "mapping": [
+                            {
+                                "map_type": "ObjectClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Object",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "ObjectMetadata",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Connection_gas": [
+                {
+                    "Object class unit": {
+                        "mapping": [
+                            {
+                                "map_type": "ObjectClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Object",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "ObjectMetadata",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "Connection_oil",
+            "Connection_gas"
+        ],
+        "table_options": {
+            "Connection_oil": {
+                "header": true
+            },
+            "Connection_gas": {
+                "header": true
+            }
+        },
+        "table_types": {
+            "Connection_oil": {
+                "0": "string"
+            },
+            "Connection_gas": {
+                "0": "string"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelReader"
+    },
+    "description": ""
+}

@@ -1,0 +1,201 @@
+{
+    "name": "Demand Plat 1M temporal resolution",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "Electricity_demand": [
+                {
+                    "node__temporal_block": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "hidden",
+                                "value": "node__temporal_block"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "temporal_block"
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 1
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": "header",
+                                "value": 3,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": "hidden",
+                                "value": "opt_1M",
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Flaring_demand": [
+                {
+                    "node__temporal_block": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "hidden",
+                                "value": "node__temporal_block"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "temporal_block"
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 1
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": "header",
+                                "value": 3,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": "hidden",
+                                "value": "opt_1M",
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Heat_demand": [
+                {
+                    "node__temporal_block": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "hidden",
+                                "value": "node__temporal_block"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "temporal_block"
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 1
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": "header",
+                                "value": 3,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": "hidden",
+                                "value": "opt_1M",
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Units_on_cost": [
+                {
+                    "Mapping 1": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 1
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "Electricity_demand",
+            "Flaring_demand",
+            "Heat_demand"
+        ],
+        "table_options": {
+            "Electricity_demand": {
+                "header": true
+            },
+            "Heat_demand": {
+                "header": true
+            },
+            "Flaring_demand": {
+                "header": true
+            },
+            "Units_on_cost": {}
+        },
+        "table_types": {
+            "Electricity_demand": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "string"
+            },
+            "Heat_demand": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "string"
+            },
+            "Flaring_demand": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "string"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelReader"
+    },
+    "description": ""
+}

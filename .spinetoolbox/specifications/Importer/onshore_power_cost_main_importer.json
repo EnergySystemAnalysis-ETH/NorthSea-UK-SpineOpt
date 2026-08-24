@@ -1,0 +1,106 @@
+{
+    "name": "Onshore Power Cost Main Importer",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "Fix_unit_flow_gas": [
+                {
+                    "Onshore_power_cost time series": {
+                        "mapping": [
+                            {
+                                "map_type": "RelationshipClass",
+                                "position": "header",
+                                "value": 4
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "hidden",
+                                "value": "unit"
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Relationship",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": "header",
+                                "value": 2,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": "header",
+                                "value": 3,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": "header",
+                                "value": 5
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueType",
+                                "position": "hidden",
+                                "value": "array"
+                            },
+                            {
+                                "map_type": "IndexName",
+                                "position": "hidden",
+                                "value": "timesteps"
+                            },
+                            {
+                                "map_type": "ParameterValueIndex",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ExpandedValue",
+                                "position": 1
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "Fix_unit_flow_gas"
+        ],
+        "table_options": {
+            "Fix_unit_flow_gas": {
+                "header": true
+            }
+        },
+        "table_types": {
+            "Fix_unit_flow_gas": {
+                "0": "string",
+                "1": "float",
+                "2": "string",
+                "3": "string",
+                "4": "string",
+                "5": "string"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelReader"
+    },
+    "description": ""
+}

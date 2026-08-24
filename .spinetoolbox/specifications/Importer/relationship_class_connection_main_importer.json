@@ -1,0 +1,236 @@
+{
+    "name": "Relationship Class Connection Main Importer",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "Connection__from_node": [
+                {
+                    "Relationship parameter unit_capacity": {
+                        "mapping": [
+                            {
+                                "map_type": "RelationshipClass",
+                                "position": 3
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Relationship",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 1,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 0,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "RelationshipMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 4
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 2
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 4
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Connection__to_node": [
+                {
+                    "Relationship parameter unit_capacity": {
+                        "mapping": [
+                            {
+                                "map_type": "RelationshipClass",
+                                "position": 3
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Relationship",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 1,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 0,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "RelationshipMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 4
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 2
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 4
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Connection__node__node": [
+                {
+                    "Relationship parameter fix_ratio_out_in_unit_flow": {
+                        "mapping": [
+                            {
+                                "map_type": "RelationshipClass",
+                                "position": 4
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 2
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Relationship",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 2,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 0,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 1,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "RelationshipMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 5
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 3
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 5
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "Connection__from_node",
+            "Connection__to_node",
+            "Connection__node__node"
+        ],
+        "table_options": {
+            "Connection__from_node": {
+                "header": true
+            },
+            "Connection__to_node": {
+                "header": true
+            },
+            "Connection__node__node": {
+                "header": true
+            }
+        },
+        "table_types": {
+            "Connection__from_node": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "float"
+            },
+            "Connection__to_node": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "float"
+            },
+            "Connection__node__node": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "string",
+                "5": "float"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelReader"
+    },
+    "description": ""
+}

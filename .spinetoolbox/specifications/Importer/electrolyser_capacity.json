@@ -1,0 +1,121 @@
+{
+    "name": "electrolyser_capacity",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "Repurp_unit_inv_from": [],
+            "Repurp_unit_inv_node": [],
+            "Repurp_unit_inv_to": [
+                {
+                    "Relationship parameter unit_capacity": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": 3
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 1,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 0,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 4
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 2
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 4
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "Repurp_unit_inv_to"
+        ],
+        "table_options": {
+            "Repurp_unit_inv_from": {},
+            "Repurp_unit_inv_to": {
+                "header": true
+            },
+            "Repurp_unit_inv_node": {
+                "header": false
+            }
+        },
+        "table_types": {
+            "Repurp_unit_inv_from": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "string",
+                "5": "string",
+                "6": "string",
+                "7": "string",
+                "8": "string",
+                "9": "string",
+                "10": "string",
+                "11": "string",
+                "12": "string",
+                "13": "string"
+            },
+            "Repurp_unit_inv_to": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "string",
+                "5": "string",
+                "6": "string",
+                "7": "string"
+            },
+            "Repurp_unit_inv_node": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "string",
+                "5": "string",
+                "6": "string"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelConnector"
+    },
+    "description": ""
+}

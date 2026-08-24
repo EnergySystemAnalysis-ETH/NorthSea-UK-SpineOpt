@@ -1,0 +1,150 @@
+{
+    "name": "Object Class Platform Main Importer",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "Objects": [
+                {
+                    "Object class node": {
+                        "mapping": [
+                            {
+                                "map_type": "ObjectClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Object",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "ObjectMetadata",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Object class unit": {
+                        "mapping": [
+                            {
+                                "map_type": "ObjectClass",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "Object",
+                                "position": 1
+                            },
+                            {
+                                "map_type": "ObjectMetadata",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "node": [
+                {
+                    "Object parameter nodal_balance_sense": {
+                        "mapping": [
+                            {
+                                "map_type": "ObjectClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Object",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "ObjectMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 2
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 1
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Object parameter balance_type": {
+                        "mapping": [
+                            {
+                                "map_type": "ObjectClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Object",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "ObjectMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 3
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 1
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 3
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "Objects",
+            "node"
+        ],
+        "table_options": {
+            "Objects": {
+                "header": true
+            },
+            "node": {
+                "header": true
+            }
+        },
+        "table_types": {
+            "Objects": {
+                "0": "string",
+                "1": "string"
+            },
+            "node": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelReader"
+    },
+    "description": ""
+}

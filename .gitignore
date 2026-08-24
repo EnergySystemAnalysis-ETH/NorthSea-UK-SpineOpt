@@ -1,0 +1,12 @@
+.claude/
+.vscode/
+.spinetoolbox/local/
+
+Manifest.toml
+*.ini
+
+logs/
+*.log
+*.bak*
+
+*.zip

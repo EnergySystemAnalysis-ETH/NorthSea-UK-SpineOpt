@@ -1,0 +1,107 @@
+{
+    "name": "Indexed Fuel_cost Platform Main Importer",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "indexed_fuel_cost": [
+                {
+                    "Relationship class yearly param": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": 1
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": 2
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": 3
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 4,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 5,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": 6
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 7
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueType",
+                                "position": "hidden",
+                                "value": "time_series",
+                                "options": {
+                                    "repeat": true
+                                }
+                            },
+                            {
+                                "map_type": "IndexName",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueIndex",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "ExpandedValue",
+                                "position": 8
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "indexed_fuel_cost"
+        ],
+        "table_options": {
+            "indexed_fuel_cost": {}
+        },
+        "table_types": {
+            "indexed_fuel_cost": {
+                "0": {
+                    "name": "integer sequence datetime",
+                    "start_datetime": "2018-01-01T00:00:00",
+                    "duration": "1Y",
+                    "start_int": 0
+                },
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "string",
+                "5": "string",
+                "6": "string",
+                "7": "string",
+                "8": "float"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelReader"
+    },
+    "description": ""
+}

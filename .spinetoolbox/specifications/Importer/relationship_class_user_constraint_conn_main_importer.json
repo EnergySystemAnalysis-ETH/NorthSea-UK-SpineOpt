@@ -1,0 +1,88 @@
+{
+    "name": "Relationship Class User Constraint conn Main Importer",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "User_constr_conn_rel": [
+                {
+                    "Relationship parameter units_on_coefficient": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": 2
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 0,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 1,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 5
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 3
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 5
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "User_constr_conn_rel"
+        ],
+        "table_options": {
+            "User_constr_conn_rel": {
+                "header": true
+            }
+        },
+        "table_types": {
+            "User_constr_conn_rel": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "string",
+                "5": "float"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelReader"
+    },
+    "description": ""
+}

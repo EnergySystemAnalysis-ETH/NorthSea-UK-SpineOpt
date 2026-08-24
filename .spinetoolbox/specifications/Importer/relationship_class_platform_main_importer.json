@@ -1,0 +1,254 @@
+{
+    "name": "Relationship Class Platform Main Importer",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "Unit__from_node": [
+                {
+                    "unit__to/from_node parameters": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": 3,
+                                "skip_columns": [
+                                    0,
+                                    1,
+                                    2,
+                                    3
+                                ]
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "unit"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 1,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 0,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header"
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 2
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 4
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Unit__node__node": [
+                {
+                    "unit__node__node parameters": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": 4,
+                                "skip_columns": [
+                                    0,
+                                    1,
+                                    2,
+                                    3,
+                                    4
+                                ]
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "unit"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 2,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 0,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 1,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header"
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 3
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 5
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Unit__to_node": [
+                {
+                    "unit__to/from_node parameters": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": 3,
+                                "skip_columns": [
+                                    0,
+                                    1,
+                                    2,
+                                    3
+                                ]
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "unit"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 1,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 0,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header"
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 2
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 4
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "Unit__from_node",
+            "Unit__node__node",
+            "Unit__to_node"
+        ],
+        "table_options": {
+            "Unit__from_node": {
+                "header": true
+            },
+            "Unit__to_node": {
+                "header": true
+            },
+            "Unit__node__node": {
+                "header": true
+            }
+        },
+        "table_types": {
+            "Unit__from_node": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "float"
+            },
+            "Unit__to_node": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "float",
+                "5": "float"
+            },
+            "Unit__node__node": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "string",
+                "5": "float",
+                "6": "float"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelReader"
+    },
+    "description": ""
+}

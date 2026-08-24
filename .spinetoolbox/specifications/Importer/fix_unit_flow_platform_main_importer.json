@@ -1,0 +1,196 @@
+{
+    "name": "Fix Unit Flow Platform Main Importer",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "Fix_unit_flow_gas": [
+                {
+                    "Fix_unit_flow time series": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 5
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "unit"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": "header",
+                                "value": 3,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": "header",
+                                "value": 4,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 2
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": "header",
+                                "value": 6
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueType",
+                                "position": "hidden",
+                                "value": "array"
+                            },
+                            {
+                                "map_type": "IndexName",
+                                "position": "hidden",
+                                "value": "timesteps"
+                            },
+                            {
+                                "map_type": "ParameterValueIndex",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ExpandedValue",
+                                "position": 2
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Fix_unit_flow_oil": [
+                {
+                    "Fix_unit_flow time series": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 5
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "unit"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": "header",
+                                "value": 3,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": "header",
+                                "value": 4,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 2
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": "header",
+                                "value": 6
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueType",
+                                "position": "hidden",
+                                "value": "array"
+                            },
+                            {
+                                "map_type": "IndexName",
+                                "position": "hidden",
+                                "value": "timesteps"
+                            },
+                            {
+                                "map_type": "ParameterValueIndex",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ExpandedValue",
+                                "position": 2
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "Fix_unit_flow_gas",
+            "Fix_unit_flow_oil"
+        ],
+        "table_options": {
+            "Fix_unit_flow_gas": {
+                "header": true
+            },
+            "Fix_unit_flow_oil": {
+                "header": true
+            }
+        },
+        "table_types": {
+            "Fix_unit_flow_gas": {
+                "0": "string",
+                "1": "string",
+                "2": "float",
+                "3": "string",
+                "4": "string",
+                "5": "string",
+                "6": "string"
+            },
+            "Fix_unit_flow_oil": {
+                "0": "string",
+                "1": "string",
+                "2": "float",
+                "3": "string",
+                "4": "string",
+                "5": "string",
+                "6": "string"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelReader"
+    },
+    "description": ""
+}

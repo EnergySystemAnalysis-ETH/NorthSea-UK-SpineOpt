@@ -1,0 +1,596 @@
+{
+    "name": "Object Class H2 Connection new Main Importer",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "H2_pipes_new": [
+                {
+                    "Object class unit": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Object class number of units": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 6
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Object class candidate connection": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 2
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 6
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Object class investment variable type": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 3
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 6
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 3
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Object class investment lifetime": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 4
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 6
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 4
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Object class investment cost": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 5
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 6
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 5
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Object class is_active w/o": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "hidden",
+                                "value": "is_active"
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 7
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": "hidden",
+                                "value": "false"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Object class is_active": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "hidden",
+                                "value": "is_active"
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 6
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": "hidden",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "NH3_pipes_new": [
+                {
+                    "Object class unit": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Object class number of units": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 6
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Object class candidate connection": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 2
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 6
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Object class investment variable type": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 3
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 6
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 3
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Object class investment lifetime": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 4
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 6
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 4
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Object class investment cost": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 5
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 6
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 5
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Object class is_active w/o": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "hidden",
+                                "value": "is_active"
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 7
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": "hidden",
+                                "value": "false"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Object class is_active": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "hidden",
+                                "value": "is_active"
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 6
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": "hidden",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "H2_pipes_new",
+            "NH3_pipes_new"
+        ],
+        "table_options": {
+            "H2_pipes_new": {
+                "header": true
+            },
+            "NH3_pipes_new": {
+                "header": true
+            }
+        },
+        "table_types": {
+            "H2_pipes_new": {
+                "0": "string",
+                "1": "float",
+                "2": "float",
+                "3": "string",
+                "4": "duration",
+                "5": "float",
+                "6": "string",
+                "7": "string"
+            },
+            "NH3_pipes_new": {
+                "0": "string",
+                "1": "float",
+                "2": "float",
+                "3": "string",
+                "4": "duration",
+                "5": "float",
+                "6": "string",
+                "7": "string"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelReader"
+    },
+    "description": ""
+}

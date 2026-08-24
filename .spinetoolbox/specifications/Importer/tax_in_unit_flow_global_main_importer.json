@@ -1,0 +1,82 @@
+{
+    "name": "Tax_in_unit_flow Global Main Importer",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "Emission_tax_in_unit_flow": [
+                {
+                    "Tax_in_unit_flow time series": {
+                        "mapping": [
+                            {
+                                "map_type": "ObjectClass",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Object",
+                                "position": "header",
+                                "value": 2
+                            },
+                            {
+                                "map_type": "ObjectMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": "header",
+                                "value": 3
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueType",
+                                "position": "hidden",
+                                "value": "array"
+                            },
+                            {
+                                "map_type": "IndexName",
+                                "position": "hidden",
+                                "value": "timesteps"
+                            },
+                            {
+                                "map_type": "ParameterValueIndex",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ExpandedValue",
+                                "position": 1
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "Emission_tax_in_unit_flow"
+        ],
+        "table_options": {
+            "Emission_tax_in_unit_flow": {
+                "header": true
+            }
+        },
+        "table_types": {
+            "Emission_tax_in_unit_flow": {
+                "0": "string",
+                "1": "float",
+                "2": "string",
+                "3": "string"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelReader"
+    },
+    "description": ""
+}

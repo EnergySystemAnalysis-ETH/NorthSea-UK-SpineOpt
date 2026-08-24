@@ -1,0 +1,130 @@
+{
+    "name": "Wellhead Flow Plat 1M temporal resolution",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "Fix_unit_flow_gas": [
+                {
+                    "node__temporal_block": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "hidden",
+                                "value": "node__temporal_block"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "temporal_block"
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 1
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": "header",
+                                "value": 4,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": "hidden",
+                                "value": "opt_1M",
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Fix_unit_flow_oil": [
+                {
+                    "node__temporal_block": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "hidden",
+                                "value": "node__temporal_block"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "hidden",
+                                "value": "temporal_block"
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 1
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": "header",
+                                "value": 4,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": "hidden",
+                                "value": "opt_1M",
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "Fix_unit_flow_gas",
+            "Fix_unit_flow_oil"
+        ],
+        "table_options": {
+            "Fix_unit_flow_gas": {
+                "header": true
+            },
+            "Fix_unit_flow_oil": {
+                "header": true
+            }
+        },
+        "table_types": {
+            "Fix_unit_flow_gas": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "string",
+                "5": "string",
+                "6": "string"
+            },
+            "Fix_unit_flow_oil": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "string",
+                "5": "string",
+                "6": "string"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelReader"
+    },
+    "description": ""
+}

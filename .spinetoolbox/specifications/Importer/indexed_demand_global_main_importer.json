@@ -1,0 +1,85 @@
+{
+    "name": "Indexed Demand Global Main Importer",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "indexed_demand": [
+                {
+                    "Object class indexed Demand": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": 1
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 2
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": 3
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 4
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueType",
+                                "position": "hidden",
+                                "value": "time_series",
+                                "options": {
+                                    "repeat": true
+                                }
+                            },
+                            {
+                                "map_type": "IndexName",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueIndex",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "ExpandedValue",
+                                "position": 5
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "indexed_demand"
+        ],
+        "table_options": {
+            "indexed_demand": {}
+        },
+        "table_types": {
+            "indexed_demand": {
+                "0": {
+                    "name": "integer sequence datetime",
+                    "start_datetime": "2018-01-01T00:00:00",
+                    "duration": "1M",
+                    "start_int": 0
+                },
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "string",
+                "5": "float"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelReader"
+    },
+    "description": ""
+}

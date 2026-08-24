@@ -1,0 +1,14 @@
+{
+    "name": "H2 conn main importer 2",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {},
+        "selected_tables": [],
+        "table_options": {},
+        "table_types": {},
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "JSONConnector"
+    },
+    "description": ""
+}

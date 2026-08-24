@@ -1,0 +1,279 @@
+{
+    "name": "Demand Platform Main Importer",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "Electricity_demand": [
+                {
+                    "Demand time series": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "header",
+                                "value": 3
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 2
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": "header",
+                                "value": 4
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueType",
+                                "position": "hidden",
+                                "value": "array"
+                            },
+                            {
+                                "map_type": "IndexName",
+                                "position": "hidden",
+                                "value": "timesteps"
+                            },
+                            {
+                                "map_type": "ParameterValueIndex",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ExpandedValue",
+                                "position": 2
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Heat_demand": [
+                {
+                    "Demand time series": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "header",
+                                "value": 3
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 2
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": "header",
+                                "value": 4
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueType",
+                                "position": "hidden",
+                                "value": "array"
+                            },
+                            {
+                                "map_type": "IndexName",
+                                "position": "hidden",
+                                "value": "timesteps"
+                            },
+                            {
+                                "map_type": "ParameterValueIndex",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ExpandedValue",
+                                "position": 2
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Flaring_demand": [
+                {
+                    "Demand time series": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "header",
+                                "value": 3
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 2
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": "header",
+                                "value": 4
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueType",
+                                "position": "hidden",
+                                "value": "array"
+                            },
+                            {
+                                "map_type": "IndexName",
+                                "position": "hidden",
+                                "value": "timesteps"
+                            },
+                            {
+                                "map_type": "ParameterValueIndex",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ExpandedValue",
+                                "position": 2
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Units_on_cost": [
+                {
+                    "Unit_on_cost time series": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "hidden",
+                                "value": "unit"
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "header",
+                                "value": 3
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 2
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": "header",
+                                "value": 5
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueType",
+                                "position": "hidden",
+                                "value": "array"
+                            },
+                            {
+                                "map_type": "IndexName",
+                                "position": "hidden",
+                                "value": "timesteps"
+                            },
+                            {
+                                "map_type": "ParameterValueIndex",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ExpandedValue",
+                                "position": 2
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "Electricity_demand",
+            "Heat_demand",
+            "Flaring_demand",
+            "Units_on_cost"
+        ],
+        "table_options": {
+            "Electricity_demand": {
+                "header": true
+            },
+            "Heat_demand": {
+                "header": true
+            },
+            "Flaring_demand": {
+                "header": true
+            },
+            "Units_on_cost": {
+                "header": true
+            }
+        },
+        "table_types": {
+            "Electricity_demand": {
+                "0": "string",
+                "1": "string",
+                "2": "float",
+                "3": "string",
+                "4": "string"
+            },
+            "Heat_demand": {
+                "0": "string",
+                "1": "string",
+                "2": "float",
+                "3": "string",
+                "4": "string"
+            },
+            "Flaring_demand": {
+                "0": "string",
+                "1": "string",
+                "2": "float",
+                "3": "string",
+                "4": "string"
+            },
+            "Units_on_cost": {
+                "0": "string",
+                "1": "string",
+                "2": "float",
+                "3": "string",
+                "4": "string",
+                "5": "string"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelReader"
+    },
+    "description": ""
+}

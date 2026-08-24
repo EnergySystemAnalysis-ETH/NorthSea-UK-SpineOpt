@@ -1,0 +1,241 @@
+{
+    "name": "Relationship Class Power Connection Main Importer",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "Power_connection_from": [
+                {
+                    "Relationship parameter connection_capacity": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": 3
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 1,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 0,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 4
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 2
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 4
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Power_connection_to": [
+                {
+                    "Relationship parameter connection_capacity": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": 3
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 1,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 0,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 4
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 2
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 4
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Power_connection_node": [
+                {
+                    "Relationship parameter fix_ratio_out_in_connection_flow": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": 4
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 2
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 2,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 0,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 1,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 5
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 3
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 5
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "Power_connection_from",
+            "Power_connection_to",
+            "Power_connection_node"
+        ],
+        "table_options": {
+            "Power_connection_from": {
+                "header": true
+            },
+            "Power_connection_to": {
+                "header": true
+            },
+            "Power_connection_node": {
+                "header": true
+            }
+        },
+        "table_types": {
+            "Power_connection_from": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "float",
+                "5": "float",
+                "6": "string"
+            },
+            "Power_connection_to": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "float",
+                "5": "float",
+                "6": "string"
+            },
+            "Power_connection_node": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "string",
+                "5": "float",
+                "6": "string"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelReader"
+    },
+    "description": ""
+}

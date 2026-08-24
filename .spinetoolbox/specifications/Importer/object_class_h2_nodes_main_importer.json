@@ -1,0 +1,74 @@
+{
+    "name": "Object Class H2 Nodes Main Importer",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "H2_nodes": [
+                {
+                    "Object class node": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "NH3_nodes": [
+                {
+                    "Object class node": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "H2_nodes",
+            "NH3_nodes"
+        ],
+        "table_options": {
+            "H2_nodes": {
+                "header": true
+            },
+            "NH3_nodes": {
+                "header": true
+            }
+        },
+        "table_types": {
+            "H2_nodes": {
+                "0": "string"
+            },
+            "NH3_nodes": {
+                "0": "string"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelReader"
+    },
+    "description": ""
+}

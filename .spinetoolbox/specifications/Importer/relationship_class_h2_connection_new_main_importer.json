@@ -1,0 +1,464 @@
+{
+    "name": "Relationship Class H2 Connection new Main Importer",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "H2_pipes_new_from": [
+                {
+                    "Relationship parameter unit_capacity": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": 3
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 1,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 0,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 4
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 2
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 4
+                            }
+                        ]
+                    }
+                }
+            ],
+            "H2_pipes_new_to": [
+                {
+                    "Relationship parameter unit_capacity": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": 3
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 1,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 0,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 4
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 2
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 4
+                            }
+                        ]
+                    }
+                }
+            ],
+            "H2_pipes_new_node": [
+                {
+                    "Relationship parameter fix_ratio_out_in_unit_flow": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": 4
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 2
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 2,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 0,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 1,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 5
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 3
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 5
+                            }
+                        ]
+                    }
+                }
+            ],
+            "NH3_pipes_new_from": [
+                {
+                    "Relationship parameter unit_capacity": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": 3
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 1,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 0,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 4
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 2
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 4
+                            }
+                        ]
+                    }
+                }
+            ],
+            "NH3_pipes_new_node": [
+                {
+                    "Relationship parameter fix_ratio_out_in_unit_flow": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": 4
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 2
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 2,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 0,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 1,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 5
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 3
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 5
+                            }
+                        ]
+                    }
+                }
+            ],
+            "NH3_pipes_new_to": [
+                {
+                    "Relationship parameter unit_capacity": {
+                        "mapping": [
+                            {
+                                "map_type": "EntityClass",
+                                "position": 3
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "Dimension",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Entity",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 1,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "Element",
+                                "position": 0,
+                                "import_entities": true
+                            },
+                            {
+                                "map_type": "EntityMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 4
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": 2
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": 4
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "H2_pipes_new_from",
+            "H2_pipes_new_to",
+            "H2_pipes_new_node",
+            "NH3_pipes_new_from",
+            "NH3_pipes_new_node",
+            "NH3_pipes_new_to"
+        ],
+        "table_options": {
+            "H2_pipes_new_from": {
+                "header": true
+            },
+            "H2_pipes_new_to": {
+                "header": true
+            },
+            "H2_pipes_new_node": {
+                "header": true
+            },
+            "NH3_pipes_new_from": {
+                "header": true
+            },
+            "NH3_pipes_new_to": {
+                "header": true
+            },
+            "NH3_pipes_new_node": {
+                "header": true
+            }
+        },
+        "table_types": {
+            "H2_pipes_new_from": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "float",
+                "5": "float",
+                "6": "string"
+            },
+            "H2_pipes_new_to": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "float",
+                "5": "float",
+                "6": "string"
+            },
+            "H2_pipes_new_node": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "string",
+                "5": "float",
+                "6": "string"
+            },
+            "NH3_pipes_new_from": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "float",
+                "5": "float",
+                "6": "string"
+            },
+            "NH3_pipes_new_to": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "float",
+                "5": "float",
+                "6": "string"
+            },
+            "NH3_pipes_new_node": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "string",
+                "4": "string",
+                "5": "float",
+                "6": "string"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelReader"
+    },
+    "description": ""
+}

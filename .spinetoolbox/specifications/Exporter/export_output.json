@@ -1,0 +1,135 @@
+{
+    "item_type": "Exporter",
+    "output_format": "Excel",
+    "name": "export_output",
+    "description": "",
+    "mappings": {
+        "solution_stats": {
+            "type": "entity_parameter_values",
+            "mapping": [
+                {
+                    "map_type": "FixedValue",
+                    "position": "table_name",
+                    "value": "solution_stats"
+                },
+                {
+                    "map_type": "EntityClass",
+                    "position": "hidden"
+                },
+                {
+                    "map_type": "ParameterDefinition",
+                    "position": 0
+                },
+                {
+                    "map_type": "ParameterValueList",
+                    "position": "hidden",
+                    "ignorable": true
+                },
+                {
+                    "map_type": "Entity",
+                    "position": "hidden"
+                },
+                {
+                    "map_type": "Alternative",
+                    "position": 2
+                },
+                {
+                    "map_type": "ParameterValueType",
+                    "position": "hidden"
+                },
+                {
+                    "map_type": "IndexName",
+                    "position": "hidden"
+                },
+                {
+                    "map_type": "ParameterValueIndex",
+                    "position": 1
+                },
+                {
+                    "map_type": "IndexName",
+                    "position": "hidden"
+                },
+                {
+                    "map_type": "ParameterValueIndex",
+                    "position": "hidden"
+                },
+                {
+                    "map_type": "ExpandedValue",
+                    "position": 3
+                }
+            ],
+            "enabled": true,
+            "always_export_header": false,
+            "group_fn": "no_group",
+            "use_fixed_table_name": true
+        },
+        " others": {
+            "type": "entity_parameter_values",
+            "mapping": [
+                {
+                    "map_type": "FixedValue",
+                    "position": "table_name",
+                    "value": "others"
+                },
+                {
+                    "map_type": "EntityClass",
+                    "position": "hidden"
+                },
+                {
+                    "map_type": "Dimension",
+                    "position": "hidden"
+                },
+                {
+                    "map_type": "Dimension",
+                    "position": 0
+                },
+                {
+                    "map_type": "ParameterDefinition",
+                    "position": 2
+                },
+                {
+                    "map_type": "ParameterValueList",
+                    "position": "hidden",
+                    "ignorable": true
+                },
+                {
+                    "map_type": "Entity",
+                    "position": "hidden"
+                },
+                {
+                    "map_type": "Element",
+                    "position": "hidden"
+                },
+                {
+                    "map_type": "Element",
+                    "position": 1
+                },
+                {
+                    "map_type": "Alternative",
+                    "position": 3
+                },
+                {
+                    "map_type": "ParameterValueType",
+                    "position": "hidden"
+                },
+                {
+                    "map_type": "IndexName",
+                    "position": "hidden"
+                },
+                {
+                    "map_type": "ParameterValueIndex",
+                    "position": -3
+                },
+                {
+                    "map_type": "ExpandedValue",
+                    "position": 5,
+                    "ignorable": true
+                }
+            ],
+            "enabled": true,
+            "always_export_header": false,
+            "group_fn": "mean",
+            "use_fixed_table_name": true
+        }
+    }
+}

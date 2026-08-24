@@ -1,0 +1,148 @@
+{
+    "name": "Demand Global Main Importer",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "Gas_demand": [
+                {
+                    "Demand time series": {
+                        "mapping": [
+                            {
+                                "map_type": "ObjectClass",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Object",
+                                "position": "header",
+                                "value": 3
+                            },
+                            {
+                                "map_type": "ObjectMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 2
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": "header",
+                                "value": 4
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueType",
+                                "position": "hidden",
+                                "value": "array"
+                            },
+                            {
+                                "map_type": "IndexName",
+                                "position": "hidden",
+                                "value": "timesteps"
+                            },
+                            {
+                                "map_type": "ParameterValueIndex",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ExpandedValue",
+                                "position": 2
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Oil_demand": [
+                {
+                    "Demand time series": {
+                        "mapping": [
+                            {
+                                "map_type": "ObjectClass",
+                                "position": "hidden",
+                                "value": "node"
+                            },
+                            {
+                                "map_type": "Object",
+                                "position": "header",
+                                "value": 3
+                            },
+                            {
+                                "map_type": "ObjectMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header",
+                                "value": 2
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": "header",
+                                "value": 4
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueType",
+                                "position": "hidden",
+                                "value": "array"
+                            },
+                            {
+                                "map_type": "IndexName",
+                                "position": "hidden",
+                                "value": "timesteps"
+                            },
+                            {
+                                "map_type": "ParameterValueIndex",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ExpandedValue",
+                                "position": 2
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "Gas_demand",
+            "Oil_demand"
+        ],
+        "table_options": {
+            "Gas_demand": {
+                "header": true
+            },
+            "Oil_demand": {
+                "header": true
+            }
+        },
+        "table_types": {
+            "Gas_demand": {
+                "0": "string",
+                "1": "string",
+                "2": "float",
+                "3": "string",
+                "4": "string"
+            },
+            "Oil_demand": {
+                "0": "string",
+                "1": "string",
+                "2": "float",
+                "3": "string",
+                "4": "string"
+            }
+        },
+        "table_default_column_type": {},
+        "table_row_types": {},
+        "source_type": "ExcelReader"
+    },
+    "description": ""
+}
