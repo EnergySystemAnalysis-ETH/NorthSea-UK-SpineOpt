@@ -17,6 +17,8 @@ Pkg.activate(dirname(proj))
 
 using SpineOpt, Gurobi 
 
+include("./simulation_scenario_config.jl")
+
 input_db_core = "DB"
 scenarios = ["REPURP", "REPURP_AM"]
 
