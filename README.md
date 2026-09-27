@@ -17,7 +17,7 @@ Currently, we use the version `v0.10.9`, for which the [Windows executable bundl
 ### 1.3 Julia project environment setup to use SpineOpt.jl optimisation modelling
 
 - SpineOpt.jl version `v0.11.3`
-- solver: `Gurobi v1.9.2` or `HiGHS v1.24.1`
+- solver: `Gurobi v1.9.3` or `HiGHS v1.25.4`
 
 ```shell
 cd NorthSea-UK-SpineOpt
