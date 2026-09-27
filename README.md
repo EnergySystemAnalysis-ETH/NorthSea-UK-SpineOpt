@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1345242526.svg)](https://doi.org/10.5281/zenodo.23000283)
+
 Copyright (C) 2023-2026 Chair of Energy Systems Analysis (ETH Zurich): Huang.JiangYi, Anna Peecock, Pietro Bianchi Marzoli, Josef Köll
 
 # UK North Sea Transition Model (SpineOpt)
