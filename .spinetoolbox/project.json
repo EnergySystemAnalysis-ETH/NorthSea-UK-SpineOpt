@@ -2260,7 +2260,7 @@
                 "database": {
                     "type": "path",
                     "relative": true,
-                    "path": "OutputDBs/OutputDB.sqlite"
+                    "path": "OutputDBs/OutputBAU.sqlite"
                 },
                 "schema": ""
             }
