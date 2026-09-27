@@ -1,3 +1,24 @@
+[[authors]]
+given-names = "Jiangyi"
+family-names = "Huang"
+email = "jiahuang@ethz.ch"
+orcid = "https://orcid.org/0000-0002-0093-2276"
+
+[[authors]]
+given-names = "Anna"
+family-names = "Peecock"
+email = "annapeecock@icloud.com"
+orcid = "https://orcid.org/0000-0002-1705-4692"
+
+[[authors]]
+given-names = "Pietro"
+family-names = "Bianchi Marzoli"
+email = "someone@email.com"
+
+[[authors]]
+given-names = "Josef"
+family-names = "Köll"
+
 [deps]
 Gurobi = "2e9cd046-0924-5485-92f1-d5272153d98b"
 HiGHS = "87dc4568-4c63-4d18-b0c0-bb2238e4078b"
@@ -6,3 +27,6 @@ SpineOpt = "0d8fc150-4032-4b6e-9540-20efcb304861"
 
 [compat]
 SpineOpt = "0.11.3"
+Gurobi = "1.9.3"
+HiGHS = "1.25.4"
+JuMP = "1.31.2"

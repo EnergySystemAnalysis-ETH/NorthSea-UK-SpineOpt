@@ -13,3 +13,5 @@ logs/
 *.sh
 slurm-out/
 log-julia/
+# large output databases (>100MB, exceed GitHub limit)
+OutputDBs/Output-*.sqlite
