@@ -26,4 +26,7 @@ julia> ]
 (NorthSea-UK-SpineOpt) pkg> instantiate
 ```
 
-## 2. Run SpineOpt simulation
+## 2. SpineOpt simulation and optimisation results
+
+- Use the `runSpineOpt-xx.jl` scripts to run the optmisation with coreponding scenarios.
+- `OutputDBs/OutputBAU.sqlite` constains the results of "BAU" scenario. Results of other scenarios can be found in the `Output-x.sqlite` databases attached to the [Publication v1.0.0](https://github.com/EnergySystemAnalysis-ETH/NorthSea-UK-SpineOpt/releases/tag/v1.0.0-SpineOpt_0.11.3); download them into `OutputDBs/`.

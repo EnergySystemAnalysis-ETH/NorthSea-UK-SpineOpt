@@ -1,0 +1,19 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: Huang
+  given-names: Jiangyi
+orcid: https://orcid.org/0000-0002-0093-2276
+authors:
+- family-names: Peecock
+  given-names: Anna
+orcid: https://orcid.org/0000-0002-1705-4692
+authors:
+- family-names: Bianchi Marzoli
+  given-names: Pietro
+authors:
+- family-names: Köll
+  given-names: Josef
+title: "UK North Sea Transition Model (SpineOpt)"
+version: v1.0.0-SpineOpt_0.11.3
+date-released: 2026-09-27

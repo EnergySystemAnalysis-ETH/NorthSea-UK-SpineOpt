@@ -13,7 +13,6 @@ orcid = "https://orcid.org/0000-0002-1705-4692"
 [[authors]]
 given-names = "Pietro"
 family-names = "Bianchi Marzoli"
-email = "someone@email.com"
 
 [[authors]]
 given-names = "Josef"
