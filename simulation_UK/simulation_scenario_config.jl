@@ -11,13 +11,13 @@ function simulation_run(input_db_decor::String, scenario_name::String)
     output_db_url = "sqlite:///$(@__DIR__)/Output-$(ENV["SLURM_ARRAY_TASK_ID"]).sqlite"
 
     m = run_spineopt(
-        input_db_url, output_db_url; upgrade=true, 
+        input_db_url, output_db_url; upgrade=true,
         lp_solver=optimizer_with_attributes(Gurobi.Optimizer),
-        mip_solver=optimizer_with_attributes(Gurobi.Optimizer, 
+        mip_solver=optimizer_with_attributes(Gurobi.Optimizer,
             "Method" => 1, "NodeMethod" => 1, "NumericFocus" => 1, "MIPGap" => 0.01,
             # "Crossover" => -1, "TimeLimit" => 1200000,
         ),
-        log_file_path="log-julia/runSpineOpt-$(ENV["SLURM_ARRAY_TASK_ID"]).txt",
+        log_file_path="log-julia/runSpineOpt-$(ENV["SLURM_ARRAY_TASK_ID"])-$(scenario_name).txt",
         filters=Dict("scenario" => scenario_name),
         alternative=scenario_name
     )
